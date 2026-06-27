@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.kugou"
+    namespace = "com.furkqn.music.kugou"
     compileSdk = 37
 
     defaultConfig {

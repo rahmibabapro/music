@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.shazamkit"
+    namespace = "com.furkqn.music.shazamkit"
     compileSdk = 37
 
     defaultConfig {

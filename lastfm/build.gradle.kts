@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.lastfm"
+    namespace = "com.furkqn.music.lastfm"
     compileSdk = 37
 
     defaultConfig {

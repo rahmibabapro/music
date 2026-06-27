@@ -1,4 +1,4 @@
-package com.metrolist.music.cast
+package com.furkqn.music.cast
 
 import android.content.Context
 import androidx.media3.cast.CastPlayer

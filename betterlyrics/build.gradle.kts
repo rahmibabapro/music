@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.betterlyrics"
+    namespace = "com.furkqn.music.betterlyrics"
     compileSdk = 37
 
     defaultConfig {

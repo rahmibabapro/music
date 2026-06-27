@@ -1,4 +1,4 @@
-package com.metrolist.music.cast
+package com.furkqn.music.cast
 
 /**
  * Stub CastOptionsProvider for Izzy builds.

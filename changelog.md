@@ -1,6 +1,6 @@
 ---v13.5.0
 # MAINTENANCE MODE
-Metrolist is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
+Music is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
 
 # Major changes
 - Rewrote the Discord RPC integration again (@adrielGGmotion @nyxiereal)
@@ -22,12 +22,12 @@ Metrolist is currently in maintenance mode. This means we will only be fixing bu
 - Fixed history sync not working (@kairosci)
 
 ## New Contributors
-- @DanielSchmerber made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3777
-- @Arjuanto made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3780
+- @DanielSchmerber made their first contribution in https://github.com/furkqn/Music/pull/3777
+- @Arjuanto made their first contribution in https://github.com/furkqn/Music/pull/3780
 
 ---v13.4.3
 # MAINTENANCE MODE
-Metrolist is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
+Music is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
 
 # Major changes
 - Rewrote the Discord RPC integration (@adrielGGmotion)
@@ -49,11 +49,11 @@ Metrolist is currently in maintenance mode. This means we will only be fixing bu
 - Multiple smaller improvements by @kairosci <3
 
 ## New Contributors
-- @Jeff0945 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3358
+- @Jeff0945 made their first contribution in https://github.com/furkqn/Music/pull/3358
 
 ---v13.4.2
 # MAINTENANCE MODE
-Metrolist is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
+Music is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
 
 # Major changes
 - Fixed random crashes and some memory leaks (@nyxiereal)
@@ -75,13 +75,13 @@ Metrolist is currently in maintenance mode. This means we will only be fixing bu
 - Improved the Android Auto icon (@ThatOneCalculator)
 
 ## New Contributors
-- @ndellagrotte made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3487
-- @cmeka made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3534
-- @punkscience made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3517
+- @ndellagrotte made their first contribution in https://github.com/furkqn/Music/pull/3487
+- @cmeka made their first contribution in https://github.com/furkqn/Music/pull/3534
+- @punkscience made their first contribution in https://github.com/furkqn/Music/pull/3517
 
 ---v13.4.1
 # MAINTENANCE MODE
-Metrolist is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
+Music is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
 
 # Major changes
 - Fixed cached songs showing up in the downloads playlist (@nyxiereal)
@@ -111,21 +111,21 @@ Metrolist is currently in maintenance mode. This means we will only be fixing bu
 - Fixed pause music on task clear not working (@nyxiereal)
 
 ## New Contributors
-* @ibratabian17 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3474
-* @sasha-melech made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3301
-* @FireLion137 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3500
-* @binimum made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3493
-* @stopper2408 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3506
-* @SunjeetKajla made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3505
+* @ibratabian17 made their first contribution in https://github.com/furkqn/Music/pull/3474
+* @sasha-melech made their first contribution in https://github.com/furkqn/Music/pull/3301
+* @FireLion137 made their first contribution in https://github.com/furkqn/Music/pull/3500
+* @binimum made their first contribution in https://github.com/furkqn/Music/pull/3493
+* @stopper2408 made their first contribution in https://github.com/furkqn/Music/pull/3506
+* @SunjeetKajla made their first contribution in https://github.com/furkqn/Music/pull/3505
 
-**Full Changelog**: https://github.com/MetrolistGroup/Metrolist/compare/v13.4.0...v13.4.1
+**Full Changelog**: https://github.com/furkqn/Music/compare/v13.4.0...v13.4.1
 ---v13.4.0
 # MAINTENANCE MODE
-Metrolist is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
+Music is currently in maintenance mode. This means we will only be fixing bugs and making minor improvements. Please do not submit PRs for new features or major changes, as they will not be accepted.
 
 No, this is not an April Fools joke, even though this update is being released on April 1st.
 
-We are working on something big for the future of Metrolist - this is not the end of the project.
+We are working on something big for the future of Music - this is not the end of the project.
 
 # Major changes
 - Multiple playback fixes and reliability improvements (@alltechdev)
@@ -161,13 +161,13 @@ We are working on something big for the future of Metrolist - this is not the en
 - Fixed links in the README (@Lolen10 @nyxiereal)
 
 ## New Contributors
-* @AntonioDionisio05 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3255
-* @David-2765 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3271
-* @luigiwwmf made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3293
-* @gergesh made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3300
-* @Lolen10 made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3328
+* @AntonioDionisio05 made their first contribution in https://github.com/furkqn/Music/pull/3255
+* @David-2765 made their first contribution in https://github.com/furkqn/Music/pull/3271
+* @luigiwwmf made their first contribution in https://github.com/furkqn/Music/pull/3293
+* @gergesh made their first contribution in https://github.com/furkqn/Music/pull/3300
+* @Lolen10 made their first contribution in https://github.com/furkqn/Music/pull/3328
 
-**Full Changelog**: https://github.com/MetrolistGroup/Metrolist/compare/v13.3.0...v13.3.1
+**Full Changelog**: https://github.com/furkqn/Music/compare/v13.3.0...v13.3.1
 ---v13.3.0
 # Major changes
 - Implemented song upload and delete functionality (@alltechdev)
@@ -195,9 +195,9 @@ We are working on something big for the future of Metrolist - this is not the en
 - Updated dependencies (@nyxiereal)
 
 ## New Contributors
-* @isotjs made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/3090
+* @isotjs made their first contribution in https://github.com/furkqn/Music/pull/3090
 
-**Full Changelog**: https://github.com/MetrolistGroup/Metrolist/compare/v13.2.1...v13.3.0
+**Full Changelog**: https://github.com/furkqn/Music/compare/v13.2.1...v13.3.0
 ---v13.2.1
 >[!WARNING]
 >Listen Together doesn't work in v13.2.1! Use v13.2.0 if you need it.
@@ -207,7 +207,7 @@ We are working on something big for the future of Metrolist - this is not the en
 - Fix navigate local playlists pinned in speed dial
 - Removed "cache songs only after playback has started" option
 
-**Full Changelog**: https://github.com/MetrolistGroup/Metrolist/compare/v13.2.0...v13.2.1
+**Full Changelog**: https://github.com/furkqn/Music/compare/v13.2.0...v13.2.1
 ---v13.2.0
 # Major changes
 - Fixed playback breaking due to YouTube's February 2026 n-transform changes (@alltechdev)
@@ -234,6 +234,6 @@ We are working on something big for the future of Metrolist - this is not the en
 - Fixed crash when creating local playlists (@mostafaalagamy)
 
 ## New Contributors
-* @johannesbrauer made their first contribution in https://github.com/MetrolistGroup/Metrolist/pull/2991
+* @johannesbrauer made their first contribution in https://github.com/furkqn/Music/pull/2991
 
-**Full Changelog**: https://github.com/MetrolistGroup/Metrolist/compare/v13.1.1...v13.2.0
+**Full Changelog**: https://github.com/furkqn/Music/compare/v13.1.1...v13.2.0

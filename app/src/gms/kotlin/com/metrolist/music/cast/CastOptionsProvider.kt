@@ -1,4 +1,4 @@
-package com.metrolist.music.cast
+package com.furkqn.music.cast
 
 import android.content.Context
 import com.google.android.gms.cast.CastMediaControlIntent

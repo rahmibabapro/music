@@ -19,7 +19,7 @@ if (localPropertiesFile.exists()) {
     localProperties.load(localPropertiesFile.inputStream())
 }
 
-val baseApplicationId = "com.metrolist.music"
+val baseApplicationId = "com.furkqn.music"
 val applicationIdOverride = System.getenv("METROLIST_APPLICATION_ID")?.takeIf { it.isNotBlank() }
 val appNameOverride = System.getenv("METROLIST_APP_NAME")?.takeIf { it.isNotBlank() }
 val debugKeystorePathOverride = System.getenv("METROLIST_DEBUG_KEYSTORE_PATH")?.takeIf { it.isNotBlank() }
@@ -94,7 +94,7 @@ abstract class GenerateProtoTask : DefaultTask() {
 }
 
 android {
-    namespace = "com.metrolist.music"
+    namespace = "com.furkqn.music"
     compileSdk = 37
 
     defaultConfig {
@@ -103,7 +103,7 @@ android {
         targetSdk = 36
         versionCode = 149
         versionName = "13.6.0"
-        resValue("string", "app_name", appNameOverride ?: "Metrolist")
+        resValue("string", "app_name", appNameOverride ?: "Music")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -118,6 +118,8 @@ android {
 
         buildConfigField("String", "LASTFM_API_KEY", "\"$lastFmKey\"")
         buildConfigField("String", "LASTFM_SECRET", "\"$lastFmSecret\"")
+        val getSongBpmKey = localProperties.getProperty("GETSONGBPM_API_KEY") ?: System.getenv("GETSONGBPM_API_KEY") ?: ""
+        buildConfigField("String", "GETSONGBPM_API_KEY", "\"$getSongBpmKey\"")
         buildConfigField("String", "ARCHITECTURE", "\"universal\"")
         buildConfigField("Long", "DISCORD_APP_ID", "1447278780795064401L")
     }
@@ -129,14 +131,14 @@ android {
             dimension = "variant"
             isDefault = true
             buildConfigField("Boolean", "CAST_AVAILABLE", "false")
-            buildConfigField("Boolean", "UPDATER_AVAILABLE", "true")
+            buildConfigField("Boolean", "UPDATER_AVAILABLE", "false")
         }
 
         // GMS - Updater and gcast
         create("gms") {
             dimension = "variant"
             buildConfigField("Boolean", "CAST_AVAILABLE", "true")
-            buildConfigField("Boolean", "UPDATER_AVAILABLE", "true")
+            buildConfigField("Boolean", "UPDATER_AVAILABLE", "false")
         }
 
         // IzzyOnDroid - no gcast, no updater - the ONLY F-droid compliant build
@@ -190,9 +192,6 @@ android {
                 applicationIdSuffix = ".debug"
             }
             isDebuggable = true
-            if (appNameOverride == null) {
-                resValue("string", "app_name", "Metrolist Debug")
-            }
             signingConfig =
                 if (workflowDebugKeystoreFile != null) {
                     signingConfigs.getByName("workflowDebug")

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.metrolist.paxsenix"
+    namespace = "com.furkqn.music.paxsenix"
     compileSdk = 37
 
     defaultConfig {
