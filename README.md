@@ -262,6 +262,10 @@
       <td align="center"><a href="https://github.com/aleksey-saenko/MusicRecognizer"><strong>MusicRecognizer</strong></a></td>
       <td>Music recognition feature & Shazam API integration</td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://getsongbpm.com"><strong>GetSongBPM</strong></a></td>
+      <td>BPM / tempo data for playlist smooth mix ordering</td>
+    </tr>
   </tbody>
 </table>
 
